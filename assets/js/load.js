@@ -24,5 +24,4 @@ if(localStorage.getItem("gClicker")) {
   document.querySelector('.load').innerHTML = `<a href="game/index.html"><button type="button" class="btn btn-outline-info" id="play">Продолжить игру</button></a>`;
 } else {
   loadBtn.style.display = '';
-  play.style.display = 'none';
 }
