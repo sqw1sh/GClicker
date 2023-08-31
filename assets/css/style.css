@@ -1,0 +1,189 @@
+/* FONTS */
+* {
+  font-family: 'Comfortaa', cursive;
+}
+/* BODY */
+body {
+  background: #1e1e1e;
+  color: #FFFFFF;
+}
+
+/* LOAD GAME */
+.load {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto 0 auto;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background: #353535;
+  height: 80px;
+}
+
+header h1 {
+  text-align: center;
+  padding: 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.5s;
+}
+
+header h1 a:hover {
+  color: #7a5af5;
+  transition: 0.5s;
+}
+
+/* FOOTER */
+footer {
+  display: block;
+  position: relative;
+  height: 80px;
+  margin-top: 35vh;
+}
+
+footer h1 {
+  font-size: 20pt;
+}
+
+footer p {
+  font-size: 20pt;
+  opacity: 80%;
+}
+
+footer i {
+  margin-right: 10px;
+  color: #7a5af5;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7a5af5;
+  transition: 1s;
+}
+
+footer a:hover {
+  color: inherit;
+  padding-left: 10px;
+  transition: 1s;
+}
+
+footer div.col-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tg-link {
+  pointer-events: none;
+}
+
+/* GAME->MAIN */
+.main {
+  background: #353535;
+  border-radius: 10px;
+  margin: 3rem auto 0 auto;
+  padding: 10px;
+}
+
+.main div.col-12 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.game-balance {
+  display: flex;
+  justify-content: center;
+}
+
+.game-click-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.game-click-btn input {
+  width: 100px;
+  height: 100px;
+  transition: 0.1s;
+}
+
+.game-click-btn input:active {
+  padding: 10px;
+  transition: 0.1s;
+}
+
+.game-stats {
+  text-align: center;
+}
+
+.game-stats-desc {
+  display: flex;
+  justify-content: center;
+}
+
+.game-stats-desc p {
+  font-size: 15pt;
+}
+
+.game-stats-desc span {
+  font-weight: bold;
+}
+
+.game-btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* GAME->MODAL */
+.modal-content {
+  background: #353535;
+}
+
+.card {
+  background: #353535;
+  color: inherit;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-evenly;
+  background: #9171f8;
+  border-radius: 50px;
+}
+
+.card-text span {
+  font-weight: bold;
+}
+
+.card-body button {
+  width: 100%;
+}
+
+/* ADAPTIVE */
+
+/* FHD */
+@media only screen and (max-height: 1080px) {
+  footer {
+    margin-top: 35vh;
+  }
+}
+
+/* HD+ */
+@media only screen and (max-height: 900px) {
+  footer {
+    margin-top: 25vh;
+  }
+}
+
+/* HD */
+@media only screen and (max-height: 720px) {
+  footer {
+    margin-top: 15vh;
+  }
+}
