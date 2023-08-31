@@ -1,7 +1,7 @@
 import {getCookie, setCookie} from './cookie.js';
 
 function loadGame() {
-  $.getJSON('http://sqw1sh.github.io/GClicker/game/characters/DEFAULT.json', function(data) {
+  $.getJSON('https://sqw1sh.github.io/GClicker/game/characters/DEFAULT.json', function(data) {
 
       for(let i=0;i<data.length;i++) {
         localStorage.setItem("character_" + data[i].id, JSON.stringify(data[i]));
