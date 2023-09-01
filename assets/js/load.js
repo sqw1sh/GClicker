@@ -53,3 +53,5 @@ if(getOS() == 'iOS' || getOS() == 'Android') {
   loadBtn.display = "none";
   document.querySelector(".device").display = "block";
 }
+
+alert(getOS());
