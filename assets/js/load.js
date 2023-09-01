@@ -55,3 +55,4 @@ if(getOS() == 'iOS' || getOS() == 'Android') {
 }
 
 alert(getOS());
+alert(getOS() == 'Android');
