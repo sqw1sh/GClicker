@@ -16,11 +16,6 @@ body {
   margin: 3rem auto 0 auto;
 }
 
-.device {
-  margin: 0.5rem 0 0 0;
-  color: #CF6679;
-}
-
 /* HEADER */
 header {
   display: flex;
