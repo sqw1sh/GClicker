@@ -17,8 +17,8 @@ body {
 }
 
 .device {
+  margin: 0.5rem 0 0 0;
   color: #CF6679;
-  display: none;
 }
 
 /* HEADER */
