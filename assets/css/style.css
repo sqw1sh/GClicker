@@ -11,8 +11,14 @@ body {
 /* LOAD GAME */
 .load {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 3rem auto 0 auto;
+}
+
+.device {
+  color: #CF6679;
+  display: none;
 }
 
 /* HEADER */
